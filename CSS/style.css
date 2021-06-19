@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Courgette&family=Rubik&display=swap');
+
+body{
+    background-color: #faf8db;
+}
+
+.font-courgete{
+    font-family: Courgette;
+}
+.font-baloo{
+    font-family: Baloo;
+}
+.font-rubik{
+    font-family: Rubik;
+}
+.font-size-20{
+    font-size: 30px;
+}
+.font-size-18{
+    font-size: 18px;
+}
+.font-size-16{
+    font-size: 16px;
+}
+.font-size-14{
+    font-size: 14px;
+}
+.font-size-12{
+    font-size: 12px;
+}
+.font-size-10{
+    font-size: 10px;
+}
+.logo-color{
+    color: rgb(211, 8, 8);
+}
+.font-pink{
+    color: rgb(241, 13, 192);
+}
+#cakes-type .card img{
+    height: 150px;
+}
+
+/* Small screens */
+@media (max-width: 450px){
+    #event-cakes .container .card{
+        width: auto;
+    }
+}
